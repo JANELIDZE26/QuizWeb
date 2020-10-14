@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    margin-left: 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin:0;
+}
+#mainv-div{
+    height: 6vh;
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding:2vh 8%;
+    margin: 0;
+}
+#button{
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8vh;
+    color: black;
+    animation-name: h1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes h1 {
+    0% {
+    color: #F79254;
+         
+    } 
+    25% {
+     color:  #41C1DF;
+      
+    }
+    50% {
+     color:#88C748;
+     
+    }
+    75% {
+    color:#EDD234;
+     
+    }
+    100% {
+    color: #F79254;
+     
+    }
+  }

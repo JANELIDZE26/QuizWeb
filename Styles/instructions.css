@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(224, 224, 224);
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.nav-div{
+  display: flex;
+  align-items: center;
+}
+.nav a{
+  margin-left: 15px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.title{
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#mainv-div{
+  height: 6vh;
+  background-color: rgb(46, 44, 44);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding:2vh 8%;
+  margin: 0;
+}
+#button{
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+#bodyDiv{
+  background-color: rgba(235, 233, 233, 1);
+  /* position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  top: 0; 
+  bottom: 0;  */
+  margin: 12vh auto 5vh auto; 
+  
+  min-height: 10vh;
+  width: 60vw;
+  padding: 6vh 6vw;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  box-shadow:0 1px 1px rgba(121, 120, 120, 0.19), 0 1px 1px rgba(143, 143, 143, 0.23);
+  border-radius: 5px;
+}
+li {
+font-size: 1.5rem;
+}
+h1{
+  font-size: 2rem;
+}
+#test-button{
+  margin: 1.5vh auto;
+  border: 1px solid #4e4e4e;
+  background-color: #333333;
+  cursor: pointer;
+  margin-bottom: 2.5vh;
+  margin-top: 3vh;
+  color:  rgb(235, 233, 233);
+  border-radius: 6px;
+  width: 10%;
+  height: 4vh;
+  font-size: 1rem;
+}
+#test-button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes background-color {
+  100% {
+      background-color: #585858;
+  }
+}

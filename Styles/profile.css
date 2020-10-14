@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    margin-left: 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin:0;
+}
+#mainv-div{
+    height: 6vh;
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding:2vh 8%;
+    margin: 0;
+}
+#button{
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+h1{
+    position: absolute;
+    top: 10vh;
+    right: 7%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1vh;
+    float: right;
+    color: black;
+    animation-name: h1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes h1 {
+    0% {
+    color: #F79254;
+         
+    } 
+    25% {
+     color:  #41C1DF;
+      
+    }
+    50% {
+     color:#88C748;
+     
+    }
+    75% {
+    color:#EDD234;
+     
+    }
+    100% {
+    color: #F79254;
+     
+    }
+  }
+.profile{
+  
+    margin: 10vh 4%;
+    /* text-align: center; */
+}
+h3{
+    font-size: 2rem;
+    color: rgb(68, 68, 68);
+}
+.test-button{
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin: 2vh 0 0 0;
+    font-size: 1.5rem;
+    /* display: inline; */
+}
+/* li{
+    display: flex;
+    flex-direction: row;
+    text-align: center!important;
+
+} */

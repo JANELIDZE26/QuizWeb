@@ -1,0 +1,214 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7e7e7;
+    color: #032535;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    margin-left: 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin:0;
+}
+#mainv-div{
+    height: 6vh;
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding:2vh 8%;
+    margin: 0;
+}
+#button{
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 3rem;
+}
+#formId{
+    width: 30%;
+    margin: 1vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#numberInput{
+    border: 3px solid rgb(160, 159, 159);
+    background-color: beige;
+    width: 12vw;
+    color: rgb(160, 159, 159);
+    font-size: 1.5rem;
+    height: 6vh;
+    margin: 0.2vh auto ;
+    text-align: center;
+    border-radius: 4px;
+}
+#number-submit{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 12.5vw;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 6vh;
+    margin: 0.2vh auto;
+    text-align: center;
+    border-radius: 4px;
+}
+#number-submit:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode:forwards;
+  }
+@keyframes background-color {
+    100% {
+        background-color: #05a79a;
+    }
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+#testDiv{
+    width: 30%;
+    margin: 3vh auto;
+}
+input{
+    width: 100%;
+   border-radius: 5px;
+    height: 3vh;
+   
+    border: 1.5px solid #979d9e;
+   padding: 3px;
+    margin: 2vh auto;
+    background-color: inherit;
+    color:#0e192a ;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#quiestionOptionsDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: red;
+}
+.questionOption{
+    width: 40% !important;
+    margin: 0.5vh 5px 0.5vh 5px!important;
+    height: 2vh;
+}
+
+#Submit{
+    margin: 1.5vh auto;
+    border: 1px solid #727272;
+    background-color: #818181;
+    cursor: pointer;
+    margin-bottom: 1vh;
+    color:  rgb(235, 233, 233);
+    border-radius: 6px;
+    height: 5vh;
+}
+#Submit:hover {
+    animation-name: background-color1;
+    animation-duration: 500ms;
+    animation-fill-mode:forwards;
+  }
+@keyframes background-color1 {
+    100% {
+        background-color: #b3b3b3;
+    }
+}
+#codePlacement{
+    width: 46%!important;
+    margin-right: 1%!important;
+}
+#generatorButton{
+    width: 47%;
+    height: 4vh;
+    border: 1px solid #727272;
+    background-color: #a1a1a1;
+    cursor: pointer;
+    margin-bottom: 2.5vh;
+    color:  rgb(235, 233, 233);
+    border-radius: 6px;
+   
+}
+#generatorButton:hover {
+    animation-name: background-color2;
+    animation-duration: 500ms;
+    animation-fill-mode:forwards;
+  }
+@keyframes background-color2 {
+    100% {
+        background-color: #c5c5c5;
+    }
+}
+.select{
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://image.flaticon.com/icons/png/512/368/368633.png) 96% / 15% no-repeat #EEE;
+ 
+}
+#generatorButton:focus, input:focus{
+    outline: none;
+}
+#copy{
+    font-size: 1rem;
+    animation-name: copy;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 1;
+  }
+  @keyframes copy {
+    0% {
+    opacity: 1;
+         
+    } 
+    25% {
+        opacity: 0.8;
+      
+    }
+    50% {
+        opacity: 0.6;
+    }
+    75% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
