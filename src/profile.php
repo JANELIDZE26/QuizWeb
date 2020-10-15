@@ -1,6 +1,6 @@
 <?php 
      session_start();
-     include_once "../lib/connect_to_mysql.php";
+//     include_once "../lib/connect_to_mysql.php";
      if(!isset($_SESSION["userName"])){
        header("Location: login.php");
      }

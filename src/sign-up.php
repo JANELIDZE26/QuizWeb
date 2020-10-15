@@ -1,7 +1,7 @@
 <?php 
     if(isset($_POST["submit"])){
-        require_once "../lib/password_hash.php";
-        require_once "../lib/connect_to_mysql.php";
+//        require_once "../lib/password_hash.php";
+//        require_once "../lib/connect_to_mysql.php";
         $writeAcces = true;
 
         $conn = connectToDatabase();

@@ -35,9 +35,9 @@ session_start(); ?>
 		<div class="nav-div">
 			<nav class="nav">
 					<?php if(isset($_SESSION["userName"])): ?>
-						<a href="login.php">Log out</a>
+						<a href="./login.php">Log out</a>
 					<?php else: ?>
-						<a href="login.php">Log in</a>
+						<a href="./login.php">Log in</a>
 					<?php endif ?>
 			</nav>
 		</div>
@@ -82,13 +82,13 @@ session_start(); ?>
                                     echo " <p class='attention'>You have already written this test!</p>";
                                 }else{
                                     setcookie("id",$id, time()+1000);
-                                    header("Location: ./src/instructions.php");
+                                    header("Location: ./instructions.php");
                                 }
                             }else{
                                 echo " <p class='attention'>Make Sure Your Test ID is Correct!</p>";
                             }
                         }else{
-                            header("Location: ./src/login.php");
+                            header("Location: ./login.php");
                         }
                 }
 				?> 

@@ -29,10 +29,7 @@
   </div>
   </header>
   <?php 
-    include_once "../lib/connect_to_mysql.php";
-  ini_set('display_errors', 1);
-  ini_set('display_startup_errors', 1);
-  error_reporting(E_ALL);
+
     $id = $_POST["id"];
 
     $myarray = [];
@@ -40,7 +37,6 @@
     $conn = connectToDatabase();
     $result = mysqli_query($conn,"SELECT participants FROM questions WHERE test_id ='$id'");
     $myarray =mysqli_fetch_assoc($result);
-
 
     ?>
 <div id= "tableDiv">

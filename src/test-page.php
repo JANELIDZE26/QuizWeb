@@ -1,5 +1,4 @@
 <?php
-    require_once "../lib/connect_to_mysql.php";
     session_start();
     $id = $_COOKIE["id"];
 
