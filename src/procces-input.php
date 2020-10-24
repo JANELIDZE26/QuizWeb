@@ -1,5 +1,5 @@
 <?php
-require_once "../lib/connect_to_mysql.php";
+require_once "./lib/connect_to_mysql.php";
 if(isset($_POST["submit"])){
 
 

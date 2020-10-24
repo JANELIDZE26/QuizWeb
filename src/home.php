@@ -7,7 +7,7 @@ session_start(); ?>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="../Styles/index.css">
+		<link rel="stylesheet" href="Styles/index.css">
 		<title>Quizlet</title>
 	</head>
 	<body>   

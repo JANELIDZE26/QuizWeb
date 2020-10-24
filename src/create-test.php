@@ -9,7 +9,7 @@ if(!isset($_SESSION["userName"])){
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../Styles/create-test.css">
+	<link rel="stylesheet" href="./Styles/create-test.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 
@@ -43,7 +43,7 @@ if(!isset($_SESSION["userName"])){
 		<input id="number-submit" type="submit" name="submit-number" value="Enter"class="testInput"> 
 	</form>
 	<div id="testDiv">
-<form id="form" action="procces-input.php" method="post">
+<form id="form" action="./procces-input.php" method="post">
 	<?php
 
 		$counter = 1;
@@ -88,7 +88,7 @@ if(!isset($_SESSION["userName"])){
 			<input id="Submit" type="submit" name="submit" value="Submit">
 			
 			
-			<script src="../Javascript/generator.js"></script>
+			<script src="./Javascript/generator.js"></script>
 			';
 		}
 		
