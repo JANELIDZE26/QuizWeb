@@ -1,16 +1,18 @@
 <?php
 require_once "lib/connect_to_mysql.php";
-session_start(); ?>
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="Styles/index.css">
+		<link rel="stylesheet" href="./Styles/index.css">
+
 		<title>Quizlet</title>
-	</head>
-	<body>   
+</head>
+	<body>
 	<header class="header">
 	<div id="mainv-div">
 		<div class="nav-div">
@@ -30,6 +32,7 @@ session_start(); ?>
 				<?php else:?>
 					<a href="login.php">Create Test </a>
 				<?php endif?>
+
 			</nav>
 		</div>
 		<div class="nav-div">

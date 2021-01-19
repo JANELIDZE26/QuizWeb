@@ -1,8 +1,6 @@
 <?php
 
-
 require_once "./routing/routing.php";
-
 
 registerRoute("/", "./routing/getHome:getHome");
 registerRoute("/login.php","./routing/getLogin:getLogin");
@@ -17,7 +15,9 @@ registerRoute("/instructions.php", "/routing/getInstructions:getInstructions");
 registerRoute("/test-page.php", "/routing/getTestPage:getTestPage");
 registerRoute("/result.php", "/routing/getResult:getResult");
 
+
 if(!isset($_SERVER["PATH_INFO"])){
     executeRoute("/", "./routing/getHome:getHome");
 }
+
 executeRoute($_SERVER["PATH_INFO"]);
